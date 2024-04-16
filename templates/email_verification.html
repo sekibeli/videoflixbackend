@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Mail Verifizierung</title>
+    <style>
+        .button {
+            width: 150px;
+            background-color: rgb(196, 5, 5);
+            border: 1px solid white; 
+            padding: 10px 20px;
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email verification</h1>
+    <p>Hello, {{ username }}</p>
+    <p>Please confirm your e-mail address by clicking on the following link:</p>
+    <a href="{{ verification_url }}" class="button">Confirm email</a>
+    <p>Thank you!</p>
+</body>
+</html>

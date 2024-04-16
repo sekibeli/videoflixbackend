@@ -1,0 +1,9 @@
+Email verification
+
+Hello, {{ username }}
+
+Please confirm your e-mail address by clicking on the following link:
+
+{{ verification_url }}
+
+Thank you!
